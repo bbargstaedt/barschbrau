@@ -86,3 +86,26 @@ p.my_class {
 	animation-delay: 2s;
 	animation-iteration-count: infinite;
 }
+ul.main_menu{
+	list-style-type: none;
+	background-color: lightblue;
+}
+li.main_menu{
+	display: inline;
+	text-align:center;
+}
+a.main_menu{
+	width: 90px;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+}
+a.main_menu:hover{
+	background-color: lightgreen;
+	text-align: right;
+	color: white;
+}
+a.main_menu.active{
+	background-color: blue;
+	color: white;
+}
