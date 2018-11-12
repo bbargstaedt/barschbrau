@@ -15,7 +15,6 @@ a:hover {
 #p1 {
 	color: green;
 	text-align: center;
-	background-image: "sunset.jpg";
 }
 /*Style for id p2 elements */
 #p2 {
@@ -24,6 +23,10 @@ a:hover {
 	font-size: 20px;
 	border: 1px dotted blue;
 	padding: 50px;
+}
+.bg_image{
+	background: red url(../bjorn_tests/bg_image.jpg);
+	background-size: cover;
 }
 /*Style for p elements of class my_class */
 p.my_class {
