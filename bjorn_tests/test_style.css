@@ -3,7 +3,7 @@ body {
 }
 /*Style for h2 elements */
 h2 {
-	color: yellow;
+	color: steelblue;
 	text-align: center;
 }
 /*Style for link elements at specific state*/
@@ -119,4 +119,8 @@ a.main_menu:hover{
 a.main_menu.active{
 	background-color: blue;
 	color: white;
+}
+.my_form{
+    position: absolute;
+    margin: 100px;
 }

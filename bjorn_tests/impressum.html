@@ -6,11 +6,24 @@
 	</head>
 	
 	<body>
-		<ul class="main_menu">
-			<li class="main_menu"><a class="main_menu" href="main.html">Home</a></li>
-			<li class="main_menu"><a class="main_menu" href="seite1.html">Seite 1</a></li>
-			<li class="main_menu"><a class="main_menu" href="produkte.html">Produkte</a></li>
-			<li class="main_menu"><a class="main_menu active" href="impressum.html">Impressum</a></li>
-		</ul>
+        <ul class="main_menu">
+            <li class="main_menu"><a class="main_menu" href="main.html">Home</a></li>
+            <li class="main_menu"><a class="main_menu" href="seite1.html">Seite 1</a></li>
+            <li class="main_menu"><a class="main_menu" href="produkte.html">Produkte</a></li>
+            <li class="main_menu"><a class="main_menu active" href="impressum.html">Impressum</a></li>
+        </ul>
+        <form class="my_form" action"kontakt.php" method="POST">
+            <h1>Kontakt</h1>
+            <table width="500" align="left" cellpadding="4">
+
+                <tr><td width="100">Name:</td><td> <input type="text" name="name" Value="" size="30"/> </td></tr>
+                <tr><td width="100">E-Mail:</td><td> <input type="text" name="email" Value="" size="30"/> </td></tr>
+                <tr><td width="100">Betreff:</td><td> <input type="text" name="betreff" Value="" size="30"/> </td></tr>
+                <tr><td width="100">Nachricht:</td><td> <textarea name="nachricht" rows="6" cols="40"> </textarea> </td></tr>
+                <tr><td width="100"><input type="reset" name="reset" Value="Reset"/></td><td>  </td></tr>
+                <tr><td width="100"><input type="submit" name="submit" Value="Senden"/></td><td>  </td></tr>
+
+            </table>  
+        </form>
 	</body>
 </html>
