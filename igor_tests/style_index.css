@@ -1,0 +1,17 @@
+.movement{
+    
+}
+
+.movement img{
+    transform: translateX(-150px);
+    animation-name: drive;
+    animation-duration: 70s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes drive{
+    from { transform: translateX(-150px)}
+    to { transform: translateX(3000px)}
+}
+
+

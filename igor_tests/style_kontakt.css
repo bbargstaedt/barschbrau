@@ -1,0 +1,42 @@
+.movement{
+    
+}
+
+.movement img{
+    transform: translateX(-150px);
+    animation-name: drive;
+    animation-duration: 70s;
+    animation-fill-mode: forwards;
+}
+
+
+.content{
+    width: 1000px;
+    background: #c9c9c9;
+    text-align: left;
+    margin: 15px 0 0 0;
+}
+
+.content #option{
+    width: 200px;
+    float: left;
+    padding: 10px;
+    text-align: left;
+}
+
+.content .textarea{
+    width: 800px;
+    float: right;
+    padding: 10px;
+    text-align: left;
+}
+
+@keyframes drive{
+    from { transform: translateX(-150px)}
+    to { transform: translateX(3000px)}
+}
+
+
+
+
+

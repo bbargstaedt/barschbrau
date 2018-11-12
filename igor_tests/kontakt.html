@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html lang="de">
+
+	<head>
+		<title>Kontakt</title>
+		<meta charset="utf-8">	
+        <link rel="stylesheet" href="style_kontakt.css">
+	</head>
+
+
+	<body>    
+		<div class="movement">
+            <img src="gutentag.png" alt="gutentag" height="auto" width="10%"/>
+		</div>
+        
+        <div class="content">
+        <div id="option">
+        </div>
+        <div class="textarea">
+            
+            <h1>Kontakt</h1>
+            
+            <form action"kontakt.php" method="POST">
+            
+                <table width="500" align="left" cellpadding="4">
+                
+                    <tr><td width="100">Name:</td><td> <input type="text" name="name" Value="" size="30"/> </td></tr>
+                    <tr><td width="100">E-Mail:</td><td> <input type="text" name="email" Value="" size="30"/> </td></tr>
+                    <tr><td width="100">Betreff:</td><td> <input type="text" name="betreff" Value="" size="30"/> </td></tr>
+                    <tr><td width="100">Nachricht:</td><td> <textarea name="nachricht" rows="6" cols="40"> </textarea> </td></tr>
+                    <tr><td width="100"><input type="reset" name="reset" Value="Reset"/></td><td>  </td></tr>
+                    <tr><td width="100"><input type="submit" name="submit" Value="Senden"/></td><td>  </td></tr>
+                    
+                </table>  
+                
+            </form>
+            
+        </div>
+        </div>
+        
+	</body>
+
+
+</html>
