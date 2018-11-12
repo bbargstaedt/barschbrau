@@ -75,7 +75,7 @@ p.my_class {
 /*animated background */
 @keyframes animated_bg{
 	0%	{background-color: red; text-align: left;}
-	33%	{background-color: yellow; text-align: center}
+	33%	{background-color: yellow; text-align: center;}
 	66% {background-color: lightblue;}
 	100% {background-color: white; text-align: right;}
 	

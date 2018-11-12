@@ -1,0 +1,36 @@
+/*animated background */
+@keyframes changing_img_bg{
+	0%	{background: red url(../bjorn_tests/bg_image.jpg); background-size:cover; transform: translate3d(0,0,0);}
+	20% {transform: translate3d(-200px,100px,0);}
+	40%	{background: red url(../bjorn_tests/bg_image2.jpg); background-size:cover; transform: translate3d(0px,200px,0);}
+	80% {background: red url(../bjorn_tests/bg_image3.png); background-size:cover; transform: translate3d(200px,100px,0);}
+	100%	{background: red url(../bjorn_tests/bg_image.jpg); background-size:cover; transform: translate3d(0,0,0);}
+	
+}
+.changing_img_bg{
+	animation-name: changing_img_bg;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+}
+@keyframes flying_button{
+	0%	{transform: translate3d(0,0,0);}
+	10% {transform: translate3d(100px,100px,0);}
+	30% {transform: translate3d(300px,200px,0);}
+	40% {transform: translate3d(500px,100px,0);}
+	50% {transform: translate3d(300px,300px,0);}
+	60% {transform: translate3d(100px,100px,0);}
+	90% {transform: translate3d(200px,300px,0);}
+	100% {transform: translate3d(100px,100px,0);}
+}
+.flying_button{
+	animation-name: flying_button;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+}
+#p3 {
+	text-align: center;
+	font-family: verdana;
+	font-size: 20px;
+	border: 1px solid green;
+	padding: 50px;
+}
