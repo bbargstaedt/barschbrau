@@ -1,3 +1,6 @@
+body {
+	margin: 0px;
+}
 /*Style for h2 elements */
 h2 {
 	color: yellow;
@@ -89,16 +92,24 @@ p.my_class {
 ul.main_menu{
 	list-style-type: none;
 	background-color: lightblue;
+	text-align: center;
+	padding: 10px;
+	width: 100%;
+	position: fixed;
+	z-index: 1;
 }
 li.main_menu{
 	display: inline;
 	text-align:center;
+	border-right: 1px solid white;
+	padding: 10px;
 }
 a.main_menu{
-	width: 90px;
 	text-align: center;
 	text-decoration: none;
 	color: black;
+	margin: 0px 20px;
+	padding: 10px;
 }
 a.main_menu:hover{
 	background-color: lightgreen;
