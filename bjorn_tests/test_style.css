@@ -24,6 +24,7 @@ a:hover {
 	border: 1px dotted blue;
 	padding: 50px;
 }
+/*Class to insert a covering background-image */
 .bg_image{
 	background: red url(../bjorn_tests/bg_image.jpg);
 	background-size: cover;
@@ -70,4 +71,18 @@ p.my_class {
 	color: white;
 	font-size: 20px;
 	box-shadow: 5px 10px 10px 0px rgba(0,0,0,0.5);
+}
+/*animated background */
+@keyframes animated_bg{
+	0%	{background-color: red; text-align: left;}
+	33%	{background-color: yellow; text-align: center}
+	66% {background-color: lightblue;}
+	100% {background-color: white; text-align: right;}
+	
+}
+.animated_bg{
+	animation-name: animated_bg;
+	animation-duration: 10s;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
 }
