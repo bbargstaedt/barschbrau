@@ -1,0 +1,7 @@
+*.py
+*.spec
+/.idea/
+/build/
+/__pycache__/
+!*.gitignore
+!/dist/*.exe
